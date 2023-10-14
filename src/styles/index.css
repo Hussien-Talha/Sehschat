@@ -1,0 +1,237 @@
+/* src/styles/index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Profile styles */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-md-8 {
+  padding-left: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Group styles */
+.group-container {
+  margin-bottom: 20px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.group-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.group-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.group-members {
+  font-size: 14px;
+  color: #666;
+}
+
+.group-messages {
+  margin-top: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message-sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-content {
+  margin-left: 20px;
+}
+
+/* Settings styles */
+.settings-container {
+  margin-bottom: 20px;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.settings-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.settings-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.settings-form {
+  margin-top: 20px;
+}
+
+.settings-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.settings-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.settings-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.settings-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.settings-button:hover {
+  background-color: #0056b3;
+}
+
+/* ChatMenu styles */
+.chat-menu-container {
+  margin-bottom: 20px;
+}
+
+.chat-menu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-menu-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-menu-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chat-menu-list {
+  margin-top: 20px;
+}
+
+.chat-menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.chat-menu-item:hover {
+  background-color: #f8f9fa;
+}
+
+.chat-menu-item-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-menu-item-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chat-menu-item-status {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Add more styles as needed */
