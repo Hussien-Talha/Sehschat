@@ -1,0 +1,94 @@
+/* Set some basic styles for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set some styles for the container element */
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Set some styles for the header element */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Set some styles for the main element */
+  .main {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Set some styles for the chat window element */
+  .chat-window {
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  /* Set some styles for the messages list element */
+  #messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set some styles for the messages list items */
+  #messages li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Set some styles for the messages from the current user */
+  #messages li.current-user {
+    background-color: #d9d9d9;
+    margin-left: 20%;
+  }
+  
+  /* Set some styles for the messages from other users */
+  #messages li.other-user {
+    background-color: #a9a9a9;
+    margin-right: 20%;
+  }
+  
+  /* Set some styles for the feedback element */
+  .feedback {
+    height: 20px;
+    color: gray;
+  }
+  
+  /* Set some styles for the input area element */
+  .input-area {
+    display: flex;
+  }
+  
+  /* Set some styles for the input elements */
+  .input-area input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+  }
+  
+  /* Set some styles for the handle input element */
+  #handle {
+    border-right: 1px solid #ccc;
+  }
+  
+  /* Set some styles for the message input element */
+  #message {
+    border-left: 1px solid #ccc;
+  }
+  
+  /* Set some styles for the send button element */
+  #send {
+    width: 100px;
+    background-color: #333;
+    color: white;
+  }
+  
