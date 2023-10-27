@@ -72,3 +72,15 @@ socket.on('typing', (data) => {
    // Set the inner HTML of the feedback element with the handle value
    feedback.innerHTML = `<p>${data} is typing...</p>`;
 });
+
+// Get the form element from the HTML document
+const form = document.querySelector('form');
+
+// Add a submit event listener to the form element
+form.addEventListener('submit', (e) => {
+  // Prevent the default behavior of the form submission, which is to reload the page
+  e.preventDefault();
+
+  // Call the click event handler of the send button
+  send.click();
+});
