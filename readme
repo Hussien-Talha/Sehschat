@@ -1,0 +1,6 @@
+Install Node.js and npm on your machine if you don’t have them already.
+Create a new folder for your project and navigate to it in your terminal.
+Run npm init -y to create a package.json file with some default values.
+Run npm install express socket.io to install the express and socket.io modules.
+
+To start the server, run node index.js in your terminal.
